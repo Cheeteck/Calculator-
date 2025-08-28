@@ -37,7 +37,7 @@
   {
     "name": "Rektangel Areal",
     "category": "areal",
-    "formula": "A = l*w",
+    "formula": "A = l*b",
     "description": "Beregn arealet af en trekant",
     "variables": "A = area, l = længde, b = bredde"
   },
