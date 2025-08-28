@@ -96,5 +96,12 @@
     "formula": "V = G*h",
     "description": "Rumfang af prisme",
     "variables": "V = volume, r = radius"
+  },
+  {
+    "name": "Topflade af pyramidestub",
+    "category": "Længde/Bredde/Højde",
+    "formulas": "G =((-sqrt(g)+sqrt(12*V/h-3*g))/2)^2"
+    "description": "Regn topfladen af en pyramidestub"
+    "variables": "V = Volume, g = grundflade, h = højde"
   }
 ]
