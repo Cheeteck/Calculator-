@@ -99,14 +99,14 @@
   },
   {
     "name": "Topflade af pyramidestub",
-    "category": "Areal",
+    "category": "areal",
     "formula": "G = ((-sqrt(g)+sqrt(12*V/h-3*g))/2)^2",
     "description": "Regn topfladen af en pyramidestub",
     "variables": "V = Volume, g = grundflade, h = højde"
   },
   {
     "name": "Topflade af keglestub",
-    "category": "Areal",
+    "category": "areal",
     "formula": "r = (-R+sqrt((12*V)/(pi*h)-3*R*R))/2",
     "description": "Regn topfladen af en keglestub",
     "variables": "V = Volume, R = radius af grundflade, h = højde"
