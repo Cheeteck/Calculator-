@@ -110,5 +110,12 @@
     "formula": "r = (-R+sqrt((12*V)/(pi*h)-3*R*R))/2",
     "description": "Regn topfladen af en keglestub",
     "variables": "V = Volume, R = radius af grundflade, h = højde"
+  },
+  {
+    "name": "Distance formel" ,
+    "category": "algebra",
+    "formula": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+    "description": "Beregn afstanden mellem to punkter i et koordinatsystem",
+    "variables": "d = distance, (x1, y1) = punkt 1, (x2, y2) = punkt 2"
   }
 ]
