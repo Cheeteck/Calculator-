@@ -100,7 +100,7 @@
   {
     "name": "Topflade af pyramidestub",
     "category": "Længde/Bredde/Højde",
-    "formula": "G =((-sqrt(g)+sqrt(12*V/h-3*g))/2)^2",
+    "formula": "G = ((-sqrt(g)+sqrt(12*V/h-3*g))/2)^2",
     "description": "Regn topfladen af en pyramidestub",
     "variables": "V = Volume, g = grundflade, h = højde"
   },
