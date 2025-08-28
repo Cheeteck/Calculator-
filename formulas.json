@@ -79,7 +79,7 @@
   {
     "name": "Rumfang af keglestub",
     "category": "rumfang",
-    "formula": "V=1/3*h*pi*(R^2+r^2+R*r)",
+    "formula": "V = 1/3*h*pi*(R^2+r^2+R*r)",
     "description": "Rumfang af keglestub",
     "variables": "V = volume, r = radius 1, R = radius 2, h = højde"
   },
@@ -96,5 +96,19 @@
     "formula": "V = G*h",
     "description": "Rumfang af prisme",
     "variables": "V = volume, r = radius"
+  },
+  {
+    "name": "Topflade af pyramidestub",
+    "category": "Areal",
+    "formula": "G = ((-sqrt(g)+sqrt(12*V/h-3*g))/2)^2",
+    "description": "Regn topfladen af en pyramidestub",
+    "variables": "V = Volume, g = grundflade, h = højde"
+  },
+  {
+    "name": "Topflade af keglestub",
+    "category": "Areal",
+    "formula": "r = (-R+sqrt((12*V)/(pi*h)-3*R*R))/2",
+    "description": "Regn topfladen af en keglestub",
+    "variables": "V = Volume, R = radius af grundflade, h = højde"
   }
 ]
