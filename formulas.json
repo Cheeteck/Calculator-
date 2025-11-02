@@ -44,7 +44,7 @@
   {
     "name": "Højde af pyramidestub",
     "category": "Længde/Bredde/Højde",
-    "formula": "h=(3*V)/(G+g+sqrt{(g*G)})",
+    "formula": "h=(3*V)/(G+g+sqrt(g*G))",
     "description": "Højde af pyramidestub",
     "variables": "h = højde, V = Volume, G = grundflade, g = topflade"
   },
